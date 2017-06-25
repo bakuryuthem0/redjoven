@@ -126,9 +126,7 @@
 	 $(document).ready(function(){
         if($(window).width() > 991)
         {
-    	    $('aside ul').pushpin({ 
-    	    	top: $('aside').offset().top
-    	   	});
+    	    
         }
 	  });
 </script>

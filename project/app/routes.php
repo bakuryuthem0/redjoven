@@ -23,6 +23,9 @@ Route::get('galeria/{id}','HomeController@showGallery');
 
 Route::get('contactenos','HomeController@getContact');
 Route::post('contactenos/enviar','HomeController@postContact');
+Route::get('biblioteca-virtual','LibraryController@getIndex');
+Route::get('biblioteca/descargar/{id}','LibraryController@downloadFile');
+
 
 Route::group(array('before' => 'no_auth'),function() 
 {
@@ -84,4 +87,14 @@ Route::group(array('before' => 'auth'),function()
 
 	Route::get('administrador/logout','AdminController@getLogOut');
 	Route::get('administrador/test-interv','AdminController@getTest');
+
+	//Biblioteca
+
+	Route::get('administrador/biblioteca/nuevo-archivo','LibraryController@getNewFile');
+	Route::post('administrador/biblioteca/nuevo-archivo/enviar','LibraryController@postNewFile');
+	Route::get('administrador/biblioteca/ver-archivos','LibraryController@getFiles');
+	Route::get('administrador/biblioteca/ver-archivos/{id}','LibraryController@downloadFile');
+	Route::get('administrador/biblioteca/editar-archivos/{id}','LibraryController@getMdfFile');
+	Route::post('administrador/biblioteca/editar-archivos/{id}/enviar','LibraryController@postMdfFile');
+	Route::post('administrador/biblioteca/ver-archivos/eliminar','LibraryController@postElimFile');
 });

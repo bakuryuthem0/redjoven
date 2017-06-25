@@ -94,6 +94,7 @@
                 <nav>
                     <ul class="nav">
                         <li class=""><a href="{{ URL::to('quienes-somos') }}" class="waves-effect waves-light">Quienes Somos</a></li>
+                        <li><a href="{{ URL::to('biblioteca-virtual') }}" class="waves-effect waves-light">Biblioteca Virtual</a></li>
                         <li class=""><a href="{{ URL::to('noticias') }}" class="waves-effect waves-light">Noticias</a></li>
                         <li class=""><a href="{{ URL::to('galeria') }}" class="waves-effect waves-light">Galería</a></li>
                         <li class=""><a href="{{ URL::to('contactenos') }}" class="waves-effect waves-light">Contactenos</a></li>

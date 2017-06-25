@@ -3,7 +3,7 @@
 class NewsController extends BaseController {
 	public function getPlainNews()
 	{
-		$sede = Sede::get();
+		$sede = Sede::orderBy('nombre')->get();
 		$title = "Noticias | Red Joven Venezuela. Formando ciudadanos, transformando futuro";
 		$cat   = Categoria::get();
 		$articulos = Articulo::with('imagenes')->where('state','=',1)->orderBy('date','DESC')->paginate(6);

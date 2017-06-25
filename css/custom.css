@@ -1707,3 +1707,7 @@ footer p
   /* either of these will work for horizontal Isotope layouts */
   height: 80%;
 }
+.download-btn
+{
+	color: #333;
+}
