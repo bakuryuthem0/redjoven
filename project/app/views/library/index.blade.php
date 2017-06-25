@@ -45,6 +45,7 @@
                         </p>
                     @endif
                     <span>
+                        <span><i class="fa fa-book"></i> {{ ucfirst(str_replace('-',' ',$f->type)) }}</span>
                         @if(!empty($f->autor))
                             <span><i class="fa fa-pencil"></i> {{ $f->autor }}</span>
                         @endif
@@ -57,7 +58,8 @@
                 <div class="clearfix"></div>
                 <hr>
             @endforeach
-            @if(count($files) > 6)
+            @if ($files->getLastPage() > 1)
+            
             <div class="blog-pagination">
                 <nav role="navigation">
                     <?php  $presenter = new Illuminate\Pagination\BootstrapPresenter($files); ?>
