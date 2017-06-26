@@ -66,7 +66,6 @@
                   <li><a href="{{ URL::to('administrador/ver-sedes') }}"><i class="fa fa-list"></i> Ver Sedes</a></li>
                 </ul>
               </li>
-              @if(Auth::user()->role <= 1)
               <li class="dropdown">
                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Galeria <span class="caret"></span></a>
                 <ul class="dropdown-menu">
@@ -74,15 +73,14 @@
                   <li><a href="{{ URL::to('administrador/ver-galerias') }}"><i class="fa fa-list"></i> Ver galerias</a></li>
                 </ul>
               </li>
-              @endif
-              @endif
               <li>
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Biblioteca <span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="{{ URL::to('administrador/biblioteca/nuevo-archivo') }}"><i class="fa fa-plus"></i> Nuevo archivo</a></li>
-                <li><a href="{{ URL::to('administrador/biblioteca/ver-archivos') }}"><i class="fa fa-list"></i> Ver archivos</a></li>
-              </ul>
-            </li>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Biblioteca <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="{{ URL::to('administrador/biblioteca/nuevo-archivo') }}"><i class="fa fa-plus"></i> Nuevo archivo</a></li>
+                  <li><a href="{{ URL::to('administrador/biblioteca/ver-archivos') }}"><i class="fa fa-list"></i> Ver archivos</a></li>
+                </ul>
+              </li>
+              @endif
             @endif
           </ul>
           <ul class="nav navbar-nav navbar-right">
