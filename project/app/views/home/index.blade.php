@@ -150,6 +150,17 @@
         </a>
     </div>
 </div>
+<div class="row relative funda-call valign-wrapper">
+    <div class="col-xs-12"><h2 class="text-left title">Visita tambien</h2></div>
+    <div class="col-xs-12">
+        <div>
+            <img src="{{ asset('images/allies/fundaepekeina.png') }}" class="logo center-block">
+            <p class="text-justify content">
+                Acompañar a las comunidades en situación de pobreza en su esfuerzo por lograr una calidad de vida digna y en la defensa de sus derechos ciudadanos, a través de un proceso integral, a nivel educativo y de organización participativa, con el fin de promover la formación intelectual y la capacitación de sus miembros, enfocados principalmente en los niños, adolescentes, jóvenes y su núcleo familiar, en conformidad con los valores de la democracia y la paz social. <strong><a href="http://fundaepekeina.org" target="_blank">Visitanos aqui</a></strong>
+            </p>
+        </div>
+    </div>
+</div>
 <div class="row relative red-bg no-padding" id="paperli">
 
     <script type="text/javascript" src="http://widgets.paper.li/javascripts/sr.embeddable.min.js"></script>
@@ -169,7 +180,7 @@
        <div class="col-xs-12 col-sm-6 col-md-3 img-ally"><a href="http://fundaepekeina.org/" target="_blank"><img class="img-responsive" src="{{ asset('images/allies/fundaepekeina.png') }}"></a></div>
        <div class="col-xs-12 col-sm-6 col-md-3 img-ally"><a href="http://www.alimentosfusari.com/ve/" target="_blank"><img class="img-responsive" src="{{ asset('images/allies/fusari.png') }}"></a></div>
        <div class="col-xs-12 col-sm-6 col-md-3 img-ally"><a href="http://uba.edu.ve/" target="_blank"><img class="img-responsive" src="{{ asset('images/allies/uba.png') }}"></a></div>
-       <div class="col-xs-12 col-sm-6 col-md-3 img-ally"><a href="http://guatekeventos.com/" target="_blank"><img class="img-responsive" src="{{ asset('images/allies/guatake.png') }}"></a></div>
+       <div class="col-xs-12 col-sm-6 col-md-3 img-ally"><a href="#!" target="_blank"><img class="img-responsive" src="{{ asset('images/allies/zerolo.png') }}"></a></div>
     </div>
     <div class="sub-logo hide-on-med-and-down" data-stellar-ratio="1.3">
         <a href="{{ URL::to('/') }}" class="waves-effect waves-light">
@@ -199,6 +210,7 @@
         </div>
     </div>
 </div>
+
 @stop
 
 @section('postscript')

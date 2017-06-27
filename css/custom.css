@@ -1711,3 +1711,26 @@ footer p
 {
 	color: #333;
 }
+.funda-call
+{
+    background: #333;
+}
+.funda-call .logo
+{
+	width: 150px;
+}
+.funda-call .title
+{
+	color: white;
+}
+.funda-call .content
+{
+	padding: 2em;
+	color: #fff;
+}
+.call-arrow
+{
+	height: 400px;
+	color: #fff;
+	cursor: pointer;
+}
