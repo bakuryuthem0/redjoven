@@ -37,7 +37,13 @@
                 <div class="col s12 formulario"><h1 class="">Resultados.</h1></div>
             @endif
             @foreach($files as $f)
-                <div class="col s12 library-container">
+             <div class="row book-container">
+                @if(!is_null($f->portada))
+                    <div class="col-xs-12 col-md-4">
+                        <img src="{{ asset('biblioteca/images/'.$f->portada) }}" class="img-responsive">
+                    </div>
+                @endif
+                <div class="col-xs-12 @if(!is_null($f->portada)) col-md-8 @endif library-container">
                     <h2 class="hist-title library">{{ ucfirst(strtolower($f->title)) }}</h2>
                     @if(!empty($f->description))
                         <p class="text-justify">
@@ -55,8 +61,9 @@
                     </span>
                     <a href="{{ URL::to('biblioteca/descargar/'.$f->id) }}" target="_blank" class="pull-right download-btn">Descargar</a>
                 </div>
-                <div class="clearfix"></div>
-                <hr>
+            </div>
+            <div class="clearfix"></div>
+            <hr>
             @endforeach
             @if ($files->getLastPage() > 1)
             

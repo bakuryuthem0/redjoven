@@ -1734,3 +1734,14 @@ footer p
 	color: #fff;
 	cursor: pointer;
 }
+.book-container
+{
+    display: table;
+    width: 100%;
+}
+.book-container div
+{
+    display: table-cell;
+    float: none;
+    vertical-align: middle;
+}
