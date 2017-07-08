@@ -44,7 +44,7 @@
                     </div>
                 @endif
                 <div class="col-xs-12 @if(!is_null($f->portada)) col-md-8 @endif library-container">
-                    <h2 class="hist-title library">{{ ucfirst(strtolower($f->title)) }}</h2>
+                    <h2 class="hist-title library">{{ $f->title }}</h2>
                     @if(!empty($f->description))
                         <p class="text-justify">
                             {{ $f->description }}

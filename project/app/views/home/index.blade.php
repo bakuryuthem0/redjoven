@@ -150,7 +150,7 @@
         </a>
     </div>
 </div>
-<div class="row relative funda-call valign-wrapper">
+<!--<div class="row relative funda-call valign-wrapper">
     <div class="col-xs-12"><h2 class="text-left title">Visita tambien</h2></div>
     <div class="col-xs-12">
         <div>
@@ -161,6 +161,7 @@
         </div>
     </div>
 </div>
+
 <div class="row relative red-bg no-padding" id="paperli">
 
     <script type="text/javascript" src="http://widgets.paper.li/javascripts/sr.embeddable.min.js"></script>
@@ -168,6 +169,7 @@
       Paperli.PaperFrame.Show({"id":"695e7029-41ea-4f3b-a36a-791b41f05952","width":"100%","height":document.getElementById('paperli').offsetHeight ,"background":"#ff0000","borderColor":"rgba(255,255,255,0)","fontColor":"#fff","hide":"create,logo"});
     </script>
 </div>
+-->
 <div class="row relative dark-blue-bg" id="allies">
     <div class="col-xs-12"><h2 class="text-left title">Nuestros aliados</h2></div>
     <div class="col-xs-12 no-padding">

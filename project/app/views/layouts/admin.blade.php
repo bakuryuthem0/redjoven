@@ -43,44 +43,48 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
-            <li class="dropdown">
-             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Artículos <span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="{{ URL::to('administrador/nuevo-articulo') }}"><i class="fa fa-plus"></i> Nuevo Artículo</a></li>
-                <li><a href="{{ URL::to('administrador/mostrar-articulos') }}"><i class="fa fa-list"></i> Ver Artículos</a></li>
-              </ul>
-            </li>
-            @if(Auth::user()->role <= 3)
-            <li class="dropdown">
-             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Usuarios <span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="{{ URL::to('administrador/nuevo-usuario') }}"><i class="fa fa-plus"></i> Nueva Usuario</a></li>
-                <li><a href="{{ URL::to('administrador/ver-usuarios') }}"><i class="fa fa-list"></i> Ver Usuarios</a></li>
-              </ul>
-            </li>
-              @if(Auth::user()->role <= 2)
+            @if(Auth::user()->role <= 5)
               <li class="dropdown">
-               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Sedes <span class="caret"></span></a>
+               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Artículos <span class="caret"></span></a>
                 <ul class="dropdown-menu">
-                  <li><a href="{{ URL::to('administrador/nueva-sede') }}"><i class="fa fa-plus"></i> Nueva Sede</a></li>
-                  <li><a href="{{ URL::to('administrador/ver-sedes') }}"><i class="fa fa-list"></i> Ver Sedes</a></li>
+                  <li><a href="{{ URL::to('administrador/nuevo-articulo') }}"><i class="fa fa-plus"></i> Nuevo Artículo</a></li>
+                  <li><a href="{{ URL::to('administrador/mostrar-articulos') }}"><i class="fa fa-list"></i> Ver Artículos</a></li>
                 </ul>
               </li>
-              <li class="dropdown">
-               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Galeria <span class="caret"></span></a>
-                <ul class="dropdown-menu">
-                  <li><a href="{{ URL::to('administrador/nueva-imagen') }}"><i class="fa fa-plus"></i> Agregar imagenes</a></li>
-                  <li><a href="{{ URL::to('administrador/ver-galerias') }}"><i class="fa fa-list"></i> Ver galerias</a></li>
-                </ul>
-              </li>
-              <li>
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Biblioteca <span class="caret"></span></a>
-                <ul class="dropdown-menu">
-                  <li><a href="{{ URL::to('administrador/biblioteca/nuevo-archivo') }}"><i class="fa fa-plus"></i> Nuevo archivo</a></li>
-                  <li><a href="{{ URL::to('administrador/biblioteca/ver-archivos') }}"><i class="fa fa-list"></i> Ver archivos</a></li>
-                </ul>
-              </li>
+              @if(Auth::user()->role <= 3)
+                @if(Auth::user()->role <= 2)
+                <li class="dropdown">
+                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Usuarios <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="{{ URL::to('administrador/nuevo-usuario') }}"><i class="fa fa-plus"></i> Nueva Usuario</a></li>
+                    <li><a href="{{ URL::to('administrador/ver-usuarios') }}"><i class="fa fa-list"></i> Ver Usuarios</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown">
+                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Sedes <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="{{ URL::to('administrador/nueva-sede') }}"><i class="fa fa-plus"></i> Nueva Sede</a></li>
+                    <li><a href="{{ URL::to('administrador/ver-sedes') }}"><i class="fa fa-list"></i> Ver Sedes</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Biblioteca <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="{{ URL::to('administrador/biblioteca/nuevo-archivo') }}"><i class="fa fa-plus"></i> Nuevo archivo</a></li>
+                    <li><a href="{{ URL::to('administrador/biblioteca/ver-archivos') }}"><i class="fa fa-list"></i> Ver archivos</a></li>
+                  </ul>
+                </li>
+                @endif
               @endif
+            @endif
+            @if(Auth::user()->role <= 3 || Auth::user()->role == 10)
+            <li class="dropdown">
+             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Galeria <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="{{ URL::to('administrador/nueva-imagen') }}"><i class="fa fa-plus"></i> Agregar imagenes</a></li>
+                <li><a href="{{ URL::to('administrador/ver-galerias') }}"><i class="fa fa-list"></i> Ver galerias</a></li>
+              </ul>
+            </li>
             @endif
           </ul>
           <ul class="nav navbar-nav navbar-right">
