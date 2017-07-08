@@ -62,6 +62,7 @@ class LibraryController extends BaseController {
 			$portada = Input::file('portada');
 			$library->portada = $this->upload_image($portada,'biblioteca/images/');
 		}
+		
 		$file = Input::file('file');
 		$library->file              = $this->upload_image($file, storage_path().'/biblioteca/');
 		$library->save();
@@ -145,6 +146,9 @@ class LibraryController extends BaseController {
 		if (Input::hasFile('file')) {
 			$file = Input::file('file');
 			$library->file              = $this->upload_image($file, storage_path().'/biblioteca/');
+		}
+		if (Input::has('remove-portada')) {
+			$library->portada = "";
 		}
 		$library->save();
 

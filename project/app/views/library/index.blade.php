@@ -38,7 +38,7 @@
             @endif
             @foreach($files as $f)
              <div class="row book-container">
-                @if(!is_null($f->portada))
+                @if(!is_null($f->portada) && !empty($f->portada))
                     <div class="col-xs-12 col-md-4">
                         <img src="{{ asset('biblioteca/images/'.$f->portada) }}" class="img-responsive">
                     </div>
