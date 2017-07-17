@@ -212,7 +212,7 @@
         </div>
     </div>
 </div>
-<div class="call">
+<div class="call" data-action="rubberBand">
     <a target="_blank" href="http://fundaepekeina.org">{{ View::make('partials.funda') }}</a>
 </div>
 @stop
@@ -221,7 +221,12 @@
 <script type="text/javascript">
     $(document).ready(function(){
         $('.submenus').pulsate({repeat: 6});   
-        $('.call svg').pulsate({repeat: 6});   
+        $(".call").hover(function(){
+            $(this).addClass('animated ' + $(this).data('action'));
+        },
+        function(){
+            $(this).removeClass('animated ' + $(this).data('action'));
+        });
 
         $('.map-link').tooltip();
     });
