@@ -212,13 +212,17 @@
         </div>
     </div>
 </div>
-
+<div class="call">
+    <a target="_blank" href="http://fundaepekeina.org">{{ View::make('partials.funda') }}</a>
+</div>
 @stop
 
 @section('postscript')
 <script type="text/javascript">
     $(document).ready(function(){
         $('.submenus').pulsate({repeat: 6});   
+        $('.call svg').pulsate({repeat: 6});   
+
         $('.map-link').tooltip();
     });
 
