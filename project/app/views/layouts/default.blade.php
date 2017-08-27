@@ -26,6 +26,7 @@
         <link rel="stylesheet" href="{{ asset('css/font-awesome.min.css') }}">
         <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
         <link rel="stylesheet" href="{{ asset('css/materialize.min.css') }}">
+        <link rel="stylesheet" href="{{ asset('css/animate.css') }}">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <script src="{{ asset('js/vendor/modernizr-2.8.3.min.js') }}"></script>
         <link rel="stylesheet" href="{{ asset('plugins/navicon/css/style.css') }}">
