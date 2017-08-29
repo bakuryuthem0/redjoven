@@ -62,6 +62,43 @@
         </div>
         <div class="col-xs-12 no-padding rel">
             <div class="program-container">
+                <a class="program" data-title="Tómate un café con" data-texto="La experiencia, el saber y el intercambio de ideas sobre historia y temas de actualidad, se conjugan en este encuentro tertulero. Fomentamos la interacción social como práctica formativa. Jóvenes dialogan con invitado especial para dar protagonismo a la experiencia de vida. La palabra permite construir un conversación sustentada en la orientación, la reflexión crítica y la construcción de conocimiento." href="#!" data-image="{{ asset('images/programas/cafe.jpg') }}">
+                    <img src="{{ asset('images/programas/cafe.jpg') }}" class="img-responsive">
+                </a>
+            </div>
+            <div class="program-container">
+                <a class="program" data-title="Filosofía para jóvenes" data-texto="Este programa, diseñado María Rodríguez, dialoga con la filosofía desde una perspectiva experimental. Presenta a los jóvenes, conceptos e ideas fundamentales de reconocidos filósofos de la historia universal, a fin de orientar la reflexión crítica y brindar  herramientas para que participantes, con autonomía, hagan frente a situaciones de la vida cotidiana. Democratizamos el acceso a las ideas para analizar realidades e impulsar cambios." data-image="{{ asset('images/programas/filosofia.jpg') }}" href="#!">
+                    <img src="{{ asset('images/programas/filosofia.jpg') }}" class="img-responsive">
+
+                </a>
+            </div>
+            <div class="program-container">
+                <a class="program" data-title="Escuela de liderazgo y emprendimiento" data-texto="Educar para liderar y emprender es el norte de este programa en el que jóvenes son concebidos como agentes de cambio y transformación. El desarrollo de competencias ciudadanas promueven la interacción social,el liderazgo juvenil y la cultura de emprendimiento con visión de la participación democrática, desarrollo y progreso del país. " href="#!" data-image="{{ asset('images/programas/escuela.jpg') }}">
+                    <img src="{{ asset('images/programas/escuela.jpg') }}" class="img-responsive">
+                </a>
+            </div>
+            <div class="program-container">
+                <a class="program" data-title="Pintando como grandes artistas" data-texto="El arte es punto de encuentro para promover el disfrute y la apreciación del dibujo y la pintura como formas de expresión social. Este programa, diseñado por María Rodríguez, además de dar conocer la vida, obra y periodos pictóricos de reconocidos pintores de la plástica universal, promueve la producción creativa de jóvenes para representar, a través de creaciones artísticas, la mirada social que tienen de su comunidad. Red Joven Venezuela impulsa y fortalece la valoración, el reconocimiento y la apropiación de esta práctica en el desarrollo social local. " href="#!" data-image="{{ asset('images/programas/pintando1.jpg') }}">
+                    <img src="{{ asset('images/programas/pintando.jpg') }}" class="img-responsive">
+                </a>
+            </div>
+            <div class="program-container">
+                <a class="program" data-title="Canto a mi país" data-texto="La música es instrumento para fomentar el desarrollo del pensamiento crítico. Lenguaje universal, forma de expresión y unión que ha de ser el elemento protagónico de este programa. <br>Canto a mi país colectiviza el sentido de la venezolanidad, estimula la identidad y sentimiento patrio.  A través del análisis de situaciones de vida despertamos interés analítico hacia la música, estimulamos la participación, reflexionamos acerca del mensaje y hacemos una analogía con la vida cotidiana desde la experiencia ciudadana." href="#!" data-image="{{ asset('images/programas/canto1.jpg') }}">
+                    <img src="{{ asset('images/programas/canto.jpg') }}" class="img-responsive">
+
+                </a>
+            </div>
+            <div class="program-container">
+                <a class="program" data-title="Medicina Social" data-texto="Reconocemos el valor de la democracia y creemos que esta adquiere sentido en la medida en que la juventud tiene cabida en ella. En este programa jóvenes fungen como médicos para resolver problemáticas sociales. Conjuga sentido humanista y acción formadora en pro de la consolidación de una juventud consciente, crítica y reflexiva ante los procesos que se suscitan en Venezuela." href="#!" data-image="{{ asset('images/programas/medicina.jpg') }}">
+                    <img src="{{ asset('images/programas/medicina.jpg') }}" class="img-responsive">
+                </a>
+            </div>
+            <div class="program-container">
+                <a class="program" data-title="Cine foro" data-texto="El cine es utilizado como herramienta educativa para fomentar el ejercicio ciudadano y la transformación social. El contexto local es determinante para entender las lógicas de convivencia desde la mirada crítica. Este programa, estimula el diálogo, la participación, el abordaje de realidad social, desde la comunicación audiovisual, para entender situaciones y estimular soluciones de problemas sociales." data-image="{{ asset('images/programas/cine.jpg') }}" href="#!" data-image="{{ asset('images/programas/1.jpg') }}">
+                    <img src="{{ asset('images/programas/cine.jpg') }}" class="img-responsive">
+                </a>
+            </div>
+            <div class="program-container">
                 <a class="program" data-title="Modelo Asamblea Nacional" data-texto="Programa que revela las competencias, responsabilidades y derechos de los parlamentos, además de la importancia que representan en un estado democrático. Un espacio para que los jóvenes conozcan y transiten en el camino de  la legislación. " href="#!" data-image="">
                     <img src="{{ asset('images/programas/logo_man.jpg') }}" class="img-responsive">
                 </a>
