@@ -35,6 +35,8 @@ function hideImg(btn) {
     btn.removeClass('active');
 }
 jQuery(document).ready(function($) {
+    $('.article-container:first-child()').addClass('m8');
+    $('.article-container:not(:first-child)').addClass('m2');
     if ($(window).width() > 990) {
         var interval = setTimeout(hideMenu, 3000);
     };
@@ -139,6 +141,7 @@ jQuery(document).ready(function($) {
     }, function() {
         $(this).removeClass('active');
     });
+    
 });
 /* ----------------------------- 
 Main navigation
