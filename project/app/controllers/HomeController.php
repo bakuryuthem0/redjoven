@@ -17,11 +17,17 @@ class HomeController extends BaseController {
 
 	public function getIndex()
 	{
+		$articulos = Articulo::with('imagenes')
+		->where('state','=',1)
+		->orderBy('date','DESC')
+		->paginate(5);
+
 		$title = "Inicio | Red Joven Venezuela. Formando ciudadanos, transformando futuro";
 		$sedes = Sede::get();
 		return View::make('home.index')
 		->with('title',$title)
-		->with('sedes',$sedes);
+		->with('sedes',$sedes)
+		->with('articulos',$articulos);
 	}
 	public function getAbout()
 	{
