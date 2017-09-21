@@ -180,26 +180,34 @@
         </a>
     </div>
 </div>
-<!--<div class="row relative funda-call valign-wrapper">
-    <div class="col-xs-12"><h2 class="text-left title">Visita tambien</h2></div>
-    <div class="col-xs-12">
-        <div>
-            <img src="{{ asset('images/allies/fundaepekeina.png') }}" class="logo center-block">
-            <p class="text-justify content">
-                Acompañar a las comunidades en situación de pobreza en su esfuerzo por lograr una calidad de vida digna y en la defensa de sus derechos ciudadanos, a través de un proceso integral, a nivel educativo y de organización participativa, con el fin de promover la formación intelectual y la capacitación de sus miembros, enfocados principalmente en los niños, adolescentes, jóvenes y su núcleo familiar, en conformidad con los valores de la democracia y la paz social. <strong><a href="http://fundaepekeina.org" target="_blank">Visitanos aqui</a></strong>
-            </p>
-        </div>
-    </div>
-</div>
-
 <div class="row relative red-bg no-padding" id="paperli">
+    <div class="col-xs-12"><h2 class="text-left title text-white">Noticias</h2></div>
+    <div class="col-xs-12 no-padding">
+        @foreach($articulos as $a)
+            <div class="article-container col s12">
+                <img src="{{ asset('images/news/'.$a->imagenes->first()->image) }}" class="responsive-img">
+                <article>
+                    <h3 class="">
+                        @if(strlen($a->title) > 30)
 
-    <script type="text/javascript" src="http://widgets.paper.li/javascripts/sr.embeddable.min.js"></script>
-    <script>
-      Paperli.PaperFrame.Show({"id":"695e7029-41ea-4f3b-a36a-791b41f05952","width":"100%","height":document.getElementById('paperli').offsetHeight ,"background":"#ff0000","borderColor":"rgba(255,255,255,0)","fontColor":"#fff","hide":"create,logo"});
-    </script>
+                            {{ substr($a->title,0,30) }}...
+                        @else
+                            {{ $a->title }}
+                        @endif
+                    </h3>
+                    @if(strlen(strip_tags($a->descripcion)) > 120)
+                        <p class="text-justify text-description">{{ substr(strip_tags($a->descripcion),0,120) }}... <a href="{{ URL::to('noticia/leer/'.$a->id) }}">Leer mas</a></p>
+                    @else
+                        <p class="text-justify text-description">{{ strip_tags($a->descripcion) }}</p>
+                    @endif
+                </article>
+            </div>
+        @endforeach
+
+    </div>
+    
 </div>
--->
+
 <div class="row relative dark-blue-bg" id="allies">
     <div class="col-xs-12"><h2 class="text-left title">Nuestros aliados</h2></div>
     <div class="col-xs-12 no-padding">

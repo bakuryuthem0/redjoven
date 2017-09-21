@@ -1750,7 +1750,7 @@ footer p
     height: 125px;
     position: fixed;
     bottom: 15%;
-    right: -117px;
+    right: 0;
     z-index: 100;
     cursor: pointer;
     transition: all .5s ease-in-out;
@@ -1758,12 +1758,89 @@ footer p
     -moz-transition: all .5s ease-in-out;
 
 }
-.call:hover
-{
-	right: 0;
-}
+
 .call svg
 {
 	width: 100%;
 	height: 100%;
+}
+@media(max-width: 425px){
+	.call
+	{
+    	right: -117px;
+	}
+	.call:focus
+	{
+		right: 0;
+	}
+}
+.text-white
+{
+	color: white !important;
+}
+.article-container{
+	height: 150px;	
+	overflow: hidden;
+	position: relative;
+}
+.article-container:first-child
+{
+	height: 300px;
+}
+.article-container img
+{
+	top: 50%;
+	left: 50%;
+	height: 100%;
+	width: auto;
+	position: absolute;
+	-webkit-transform: translate(-50%, -50%);
+	   -moz-transform: translate(-50%, -50%);
+	    -ms-transform: translate(-50%, -50%);
+	     -o-transform: translate(-50%, -50%);
+	        transform: translate(-50%, -50%);
+}
+.article-container article
+{
+	left: 50%;
+	width: 99%;
+	height: auto;
+	bottom: -3rem;
+	padding: .5em;
+	position: absolute;
+	background-color: rgba(55,55,55,0.6);
+	-webkit-transform: translateX(-50%);
+	   -moz-transform: translateX(-50%);
+	    -ms-transform: translateX(-50%);
+	     -o-transform: translateX(-50%);
+	        transform: translateX(-50%);
+	-webkit-transition: all .5s ease-out;
+	   -moz-transition: all .5s ease-out;
+	    -ms-transition: all .5s ease-out;
+	     -o-transition: all .5s ease-out;
+	        transition: all .5s ease-out;
+}
+.article-container:not(:first-child) article
+{
+	bottom: -6.5rem;
+}
+.article-container:hover article
+{
+	bottom: 0;
+}
+.article-container:first-child:hover article
+{
+	bottom: 0;
+}
+.article-container:not(:first-child) article h3
+{
+	margin: 0;
+	font-size: 18px;
+}
+.article-container:not(:first-child) article p
+{
+	font-size: 10px;
+}
+.article-container article h3,.article-container article p{
+	color: white;
 }
