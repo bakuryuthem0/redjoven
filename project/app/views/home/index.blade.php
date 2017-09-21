@@ -185,7 +185,9 @@
     <div class="col-xs-12 no-padding">
         @foreach($articulos as $a)
             <div class="article-container col s12">
+                @if($a->imagenes->first())
                 <img src="{{ asset('images/news/'.$a->imagenes->first()->image) }}" class="responsive-img">
+                @endif
                 <article>
                     <h3 class="">
                         @if(strlen($a->title) > 30)
