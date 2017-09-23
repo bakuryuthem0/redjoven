@@ -1780,9 +1780,13 @@ footer p
 }
 .article-container{
 	height: 145px;	
-	margin-bottom: 5px;
 	overflow: hidden;
 	position: relative;
+	margin-bottom: 10px;
+}
+.article-container .img-cont
+{
+	height: 100%;
 }
 .article-container:first-child
 {
@@ -1790,21 +1794,13 @@ footer p
 }
 .article-container img
 {
-	top: 50%;
-	left: 50%;
-	height: 100%;
-	width: auto;
-	position: absolute;
-	-webkit-transform: translate(-50%, -50%);
-	   -moz-transform: translate(-50%, -50%);
-	    -ms-transform: translate(-50%, -50%);
-	     -o-transform: translate(-50%, -50%);
-	        transform: translate(-50%, -50%);
+	width: 100%;
+	height: auto;
 }
 .article-container article
 {
 	left: 50%;
-	width: 99%;
+	width: calc(100% - 1.5rem);
 	height: auto;
 	bottom: -3rem;
 	padding: .5em;
