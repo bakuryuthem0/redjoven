@@ -1807,7 +1807,7 @@ footer p
 	left: 50%;
 	width: calc(100% - 1.5rem);
 	height: auto;
-	bottom: -3rem;
+	bottom: -4rem;
 	padding: .5em;
 	position: absolute;
 	background-color: rgba(55,55,55,0.6);
