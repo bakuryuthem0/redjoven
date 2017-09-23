@@ -1784,7 +1784,7 @@ footer p
 	position: relative;
 	margin-bottom: 10px;
 }
-.article-container .img-cont
+.article-container .img-cont, .article-container .img-cont a
 {
 	height: 100%;
 }
@@ -1796,6 +1796,11 @@ footer p
 {
 	width: 100%;
 	height: auto;
+}
+.article-container:not(:first-child) img
+{
+	width: auto;
+	height: 100%;
 }
 .article-container article
 {
