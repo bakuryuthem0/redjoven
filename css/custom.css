@@ -1779,7 +1779,8 @@ footer p
 	color: white !important;
 }
 .article-container{
-	height: 150px;	
+	height: 145px;	
+	margin-bottom: 5px;
 	overflow: hidden;
 	position: relative;
 }
@@ -1836,6 +1837,7 @@ footer p
 {
 	margin: 0;
 	font-size: 18px;
+	line-height: 1.3;
 }
 .article-container:not(:first-child) article p
 {

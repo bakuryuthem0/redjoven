@@ -186,22 +186,28 @@
         @foreach($articulos as $a)
             <div class="article-container col s12">
                 @if($a->imagenes->first())
-                <img src="{{ asset('images/news/'.$a->imagenes->first()->image) }}" class="responsive-img">
+                <a href="{{ URL::to('noticia/leer/'.$a->id) }}">
+                    <img src="{{ asset('images/news/'.$a->imagenes->first()->image) }}" class="responsive-img">
+                </a>
                 @endif
                 <article>
-                    <h3 class="">
-                        @if(strlen($a->title) > 30)
+                    <a href="{{ URL::to('noticia/leer/'.$a->id) }}">
+                        <h3 class="">
+                            @if(strlen($a->title) > 25)
 
-                            {{ substr($a->title,0,30) }}...
+                                {{ substr($a->title,0,25) }}...
+                            @else
+                                {{ $a->title }}
+                            @endif
+                        </h3>
+                    </a>
+                    <a href="{{ URL::to('noticia/leer/'.$a->id) }}">
+                        @if(strlen(strip_tags($a->descripcion)) > 120)
+                            <p class="text-justify text-description">{{ substr(strip_tags($a->descripcion),0,120) }}... <a href="{{ URL::to('noticia/leer/'.$a->id) }}">Leer mas</a></p>
                         @else
-                            {{ $a->title }}
+                            <p class="text-justify text-description">{{ strip_tags($a->descripcion) }}</p>
                         @endif
-                    </h3>
-                    @if(strlen(strip_tags($a->descripcion)) > 120)
-                        <p class="text-justify text-description">{{ substr(strip_tags($a->descripcion),0,120) }}... <a href="{{ URL::to('noticia/leer/'.$a->id) }}">Leer mas</a></p>
-                    @else
-                        <p class="text-justify text-description">{{ strip_tags($a->descripcion) }}</p>
-                    @endif
+                    </a>
                 </article>
             </div>
         @endforeach
