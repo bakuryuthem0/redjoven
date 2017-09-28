@@ -37,6 +37,15 @@ function hideImg(btn) {
 jQuery(document).ready(function($) {
     $('.article-container:first-child()').addClass('m8');
     $('.article-container:not(:first-child)').addClass('m2');
+    $('.article-container').each(function(index, el) {
+        var ele = $(el).find('article');
+        var margintop = parseInt(ele.find('h3').css('margin-top').substr(0, ele.find('h3').css('margin-top').length-2));
+        var marginbot = parseInt(ele.find('h3').css('margin-bottom').substr(0,ele.find('h3').css('margin-bottom').length-2));
+        var height    = ele.find('h3').height(); 
+        ele.css({
+            'bottom': -1*(ele.height() - (margintop+marginbot+height-5))
+        });
+    });
     if ($(window).width() > 990) {
         var interval = setTimeout(hideMenu, 3000);
     };

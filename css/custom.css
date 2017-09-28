@@ -1807,7 +1807,6 @@ footer p
 	left: 50%;
 	width: calc(100% - 1.5rem);
 	height: auto;
-	bottom: -4rem;
 	padding: .5em;
 	position: absolute;
 	background-color: rgba(55,55,55,0.6);
@@ -1822,17 +1821,9 @@ footer p
 	     -o-transition: all .5s ease-out;
 	        transition: all .5s ease-out;
 }
-.article-container:not(:first-child) article
-{
-	bottom: -6.5rem;
-}
 .article-container:hover article
 {
-	bottom: 0;
-}
-.article-container:first-child:hover article
-{
-	bottom: 0;
+	bottom: 0 !important;
 }
 .article-container:not(:first-child) article h3
 {
