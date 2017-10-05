@@ -94,15 +94,15 @@
                 </a>
             </div>
             <div class="program-container">
-                <a class="program" data-title="Medicina Social" data-texto="Reconocemos el valor de la democracia y creemos que esta adquiere sentido en la medida en que la juventud tiene cabida en ella. En este programa jóvenes fungen como médicos para resolver problemáticas sociales. Conjuga sentido humanista y acción formadora en pro de la consolidación de una juventud consciente, crítica y reflexiva ante los procesos que se suscitan en Venezuela." href="#!" data-image="{{ asset('images/programas/medicina.jpg') }}">
-                    <img src="{{ asset('images/programas/medicina_blanco.jpg') }}" class="img-responsive">
-                    <img src="{{ asset('images/programas/medicina.jpg') }}" class="img-responsive img-program">
-                </a>
-            </div>
-            <div class="program-container">
                 <a class="program" data-title="Cine foro" data-texto="El cine es utilizado como herramienta educativa para fomentar el ejercicio ciudadano y la transformación social. El contexto local es determinante para entender las lógicas de convivencia desde la mirada crítica. Este programa, estimula el diálogo, la participación, el abordaje de realidad social, desde la comunicación audiovisual, para entender situaciones y estimular soluciones de problemas sociales." data-image="{{ asset('images/programas/cine.jpg') }}" href="#!" data-image="{{ asset('images/programas/1.jpg') }}">
                     <img src="{{ asset('images/programas/cine_blanco.jpg') }}" class="img-responsive">
                     <img src="{{ asset('images/programas/cine.jpg') }}" class="img-responsive img-program">
+                </a>
+            </div>
+            <div class="program-container">
+                <a class="program" data-title="Medicina Social" data-texto="Reconocemos el valor de la democracia y creemos que esta adquiere sentido en la medida en que la juventud tiene cabida en ella. En este programa jóvenes fungen como médicos para resolver problemáticas sociales. Conjuga sentido humanista y acción formadora en pro de la consolidación de una juventud consciente, crítica y reflexiva ante los procesos que se suscitan en Venezuela." href="#!" data-image="{{ asset('images/programas/medicina.jpg') }}">
+                    <img src="{{ asset('images/programas/medicina_blanco.jpg') }}" class="img-responsive">
+                    <img src="{{ asset('images/programas/medicina.jpg') }}" class="img-responsive img-program">
                 </a>
             </div>
             <div class="program-container">
@@ -112,15 +112,9 @@
                 </a>
             </div>
             <div class="program-container">
-                <a class="program" data-title="Foros y Academias RJV" data-texto="Brindamos jornadas especiales de formación para lograr enriquecer el intelecto de nuestros jóvenes. Tomamos temáticas que representen crecimiento y desarrollo. La teoría y la practicidad se conjugan para que los resultados sean tangibles en las comunidades. " href="#!" data-image="">
+                <a class="program" data-title="Foros y Academias RJV" data-texto="Brindamos jornadas especiales de formación para lograr enriquecer el intelecto de nuestros jóvenes. Tomamos temáticas que representen crecimiento y desarrollo. La teoría y la practicidad se conjugan para que los resultados sean tangibles en las comunidades." href="#!" data-image="">
                     <img src="{{ asset('images/programas/logo_aca.png') }}" class="img-responsive img-program">
                     <img src="{{ asset('images/programas/logo_aca_blanco.png') }}" class="img-responsive">
-                </a>
-            </div>
-            <div class="program-container">
-                <a class="program" data-title="Papagayos por La Paz" data-texto="Jornada recreacional para fomentar la cultura de paz. Generamos estrategias que promuevan valores, rescaten la convivencia,  impulsen la creatividad y rescate el uso y conocimiento de los juegos tradicionales." href="#!" data-image="">
-                    <img src="{{ asset('images/programas/logo_pap.png') }}" class="img-responsive img-program">
-                    <img src="{{ asset('images/programas/logo_pap_blanco.png') }}" class="img-responsive">
                 </a>
             </div>
             <div class="program-container">
@@ -130,9 +124,45 @@
                 </a>
             </div>
             <div class="program-container">
+                <a class="program" data-title="Crónicas Juveniles" data-texto="Espacio en el que se detallarán historias  o testimonios de vida de nuestros jóvenes. Abrimos una vitrina con la experiencia, logros, costumbres y prácticas de quienes representan el futuro de nuestro país. " href="#!" data-image="">
+                    <img src="{{ asset('images/programas/logo_cron.png') }}" class="img-responsive img-program">
+                    <img src="{{ asset('images/programas/logo_cron_blanco.png') }}" class="img-responsive">
+                </a>
+            </div>
+            <div class="program-container">
+                <a class="program" data-title="Papagayos por La Paz" data-texto="Jornada recreacional para fomentar la cultura de paz. Generamos estrategias que promuevan valores, rescaten la convivencia,  impulsen la creatividad y rescate el uso y conocimiento de los juegos tradicionales." href="#!" data-image="">
+                    <img src="{{ asset('images/programas/logo_pap.png') }}" class="img-responsive img-program">
+                    <img src="{{ asset('images/programas/logo_pap_blanco.png') }}" class="img-responsive">
+                </a>
+            </div>
+            <div class="program-container">
                 <a class="program" data-title="Torneo Deportivos" data-texto="Organizamos y promovemos actividades deportivas en comunidades populares para el provecho del tiempo libre de la juventud. La ejercitación física la combinamos con  valores como la  tolerancia, respeto y trabajo en equipo para  que sean tangibles en las comunidades. Descubrimos y respaldamos talentos locales." href="#!" data-image="">
                     <img src="{{ asset('images/programas/logo_dep.png') }}" class="img-responsive img-program">
                     <img src="{{ asset('images/programas/logo_dep_blanco.png') }}" class="img-responsive">
+                </a>
+            </div>
+            <div class="program-container">
+                <a class="program" data-title="Campamento Juvenil" data-texto="" href="#!" data-image="">
+                    <img src="{{ asset('images/programas/logo_camp.png') }}" class="img-responsive img-program">
+                    <img src="{{ asset('images/programas/logo_camp_blanco.png') }}" class="img-responsive">
+                </a>
+            </div>
+            <div class="program-container">
+                <a class="program" data-title="Constitución vs Constituyente" data-texto="" href="#!" data-image="">
+                    <img src="{{ asset('images/programas/logo_const.png') }}" class="img-responsive img-program">
+                    <img src="{{ asset('images/programas/logo_const_blanco.png') }}" class="img-responsive">
+                </a>
+            </div>
+            <div class="program-container">
+                <a class="program" data-title="Cultura y Arte Joven" data-texto="" href="#!" data-image="">
+                    <img src="{{ asset('images/programas/logo_cult.png') }}" class="img-responsive img-program">
+                    <img src="{{ asset('images/programas/logo_cult_blanco.png') }}" class="img-responsive">
+                </a>
+            </div>
+            <div class="program-container">
+                <a class="program" data-title="Voluntariado Juvenil Epékeina" data-texto="" href="#!" data-image="">
+                    <img src="{{ asset('images/programas/logo_vol.png') }}" class="img-responsive img-program">
+                    <img src="{{ asset('images/programas/logo_vol_blanco.png') }}" class="img-responsive">
                 </a>
             </div>
             <div class="go-back waves-effect waves-light hidden">
