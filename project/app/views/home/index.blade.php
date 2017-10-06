@@ -212,7 +212,7 @@
                 @if($a->imagenes->first())
                 <div class="valign-wrapper img-cont">
                     <a href="{{ URL::to('noticia/leer/'.$a->id) }}">
-                        <img src="{{ asset('images/news/'.$a->imagenes->first()->image) }}" class="responsive-img">
+                        <img src="{{ asset('images/news/'.$a->imagenes->first()->image) }}" class="big-height">
                     </a>
                 </div>
                 @endif

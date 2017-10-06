@@ -1769,6 +1769,10 @@ footer p
 	position: relative;
 	margin-bottom: 10px;
 }
+.article-container .img-cont
+{
+	background-color: #fff;
+}
 .article-container .img-cont, .article-container .img-cont a
 {
 	height: 100%;
@@ -1776,16 +1780,6 @@ footer p
 .article-container:first-child
 {
 	height: 300px;
-}
-.article-container img
-{
-	width: 100%;
-	height: auto;
-}
-.article-container:not(:first-child) img
-{
-	width: auto;
-	height: 100%;
 }
 .article-container article
 {
@@ -1822,4 +1816,19 @@ footer p
 }
 .article-container article h3,.article-container article p{
 	color: white;
+}
+
+.big-height
+{
+	width: auto;
+	height: 100%;
+}
+.big-width
+{
+	width: 100%;
+	height: auto;
+}
+.article-container a{
+	display: inline-block;
+	margin: 0 auto;
 }
