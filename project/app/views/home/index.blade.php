@@ -148,12 +148,6 @@
                 </a>
             </div>
             <div class="program-container">
-                <a class="program" data-title="Constitución vs Constituyente" data-texto="" href="#!" data-image="">
-                    <img src="{{ asset('images/programas/logo_const.png') }}" class="img-responsive img-program">
-                    <img src="{{ asset('images/programas/logo_const_blanco.png') }}" class="img-responsive">
-                </a>
-            </div>
-            <div class="program-container">
                 <a class="program" data-title="Cultura y Arte Joven" data-texto="" href="#!" data-image="">
                     <img src="{{ asset('images/programas/logo_cult.png') }}" class="img-responsive img-program">
                     <img src="{{ asset('images/programas/logo_cult_blanco.png') }}" class="img-responsive">
