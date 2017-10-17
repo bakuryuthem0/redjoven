@@ -106,37 +106,37 @@
                 </a>
             </div>
             <div class="program-container">
-                <a class="program" data-title="Ecologismo por Mi País" data-texto="Hacemos conexión con tierra, ambiente y reciclaje, porque son medulares en el presente y futuro. Con diversas estrategias promovemos educación, valores y sentido común en cuanto al cuido de nuestra fauna, flora y espacios verdes. " href="#!" data-image="">
+                <a class="program" data-title="Ecologismo por Mi País" data-texto="Hacemos conexión con tierra, ambiente y reciclaje, porque son medulares en el presente y futuro de la humanidad. Con diversas estrategias promovemos educación, valores y sentido común en cuanto al cuidado de nuestra fauna, flora y espacios verdes en Venezuela. Nuestros eventos son recreativos, dinámicos, didácticos y siempre de carácter ecológico porque creemos que conservar el planeta es querer al mundo. La idea es fomentar los valores de formación ciudadana y de preservación ambiental desde toda la red nacional Red Joven Venezuela y en perfecta alianza con Funda Epékeina. " href="#!" data-image="">
                     <img src="{{ asset('images/programas/logo_eco.png') }}" class="img-responsive img-program">
                     <img src="{{ asset('images/programas/logo_eco_blanco.png') }}" class="img-responsive ">
                 </a>
             </div>
             <div class="program-container">
-                <a class="program" data-title="Foros y Academias RJV" data-texto="Brindamos jornadas especiales de formación para lograr enriquecer el intelecto de nuestros jóvenes. Tomamos temáticas que representen crecimiento y desarrollo. La teoría y la practicidad se conjugan para que los resultados sean tangibles en las comunidades." href="#!" data-image="">
+                <a class="program" data-title="Foros y Academias RJV" data-texto="Brindamos jornadas especiales de formación para lograr enriquecer el intelecto de nuestros jóvenes. Tomamos temáticas que representen crecimiento y empoderamiento. La teoría y la practicidad se conjugan para que los resultados sean tangibles en las comunidades. Aquí incentivamos a los jóvenes a salir de sí para explorar las riquezas del conocimiento que se encuentran en el otro. También en el debate salen a la luz las miserias de quien las expone, puesto que las vive, y así queda en evidencia su pobre nivel humano-intelectual para asumir el desafío planteado. El debate permite descubrir quién es quien en la política y en la sociedad." href="#!" data-image="">
                     <img src="{{ asset('images/programas/logo_aca.png') }}" class="img-responsive img-program">
                     <img src="{{ asset('images/programas/logo_aca_blanco.png') }}" class="img-responsive">
                 </a>
             </div>
             <div class="program-container">
-                <a class="program" data-title="Modelo Asamblea Nacional" data-texto="Programa que revela las competencias, responsabilidades y derechos de los parlamentos, además de la importancia que representan en un estado democrático. Un espacio para que los jóvenes conozcan y transiten en el camino de  la legislación. " href="#!" data-image="">
+                <a class="program" data-title="Modelo Asamblea Nacional" data-texto="Programa que revela las competencias, responsabilidades y derechos de los parlamentos, además de la importancia que representan en un Estado democrático en Venezuela. Es el espacio ideal para que los integrantes de la Red Joven Venezuela sueñen un mejor país y aprendan a debatir con elevada cultura y lenguaje edificante sobre los caminos a transitar para llegar hasta la legislación por el bien de la nación." href="#!" data-image="">
                     <img src="{{ asset('images/programas/logo_man.png') }}" class="img-responsive img-program">
                     <img src="{{ asset('images/programas/logo_man_blanco.png') }}" class="img-responsive">
                 </a>
             </div>
             <div class="program-container">
-                <a class="program" data-title="Crónicas Juveniles" data-texto="Espacio en el que se detallarán historias  o testimonios de vida de nuestros jóvenes. Abrimos una vitrina con la experiencia, logros, costumbres y prácticas de quienes representan el futuro de nuestro país. " href="#!" data-image="">
+                <a class="program" data-title="Crónicas Juveniles" data-texto="Espacio en el que se detallarán historias, relatos ordenados y testimonios de vida de nuestros jóvenes. Abrimos una vitrina con la experiencia, logros, costumbres y prácticas de quienes representan el futuro de Venezuela. Espacio ideal para echar a volar la inspiración, la intuición y la intelectualidad de quienes hacen vida en la Red Joven Venezuela. Esta oportunidad se abre para difundir las experiencias propias de los jóvenes en la reconstrucción de la Venezuela mancillada por el mal gobierno y el camino hacia la reconquista de la democracia y la libertad desde la inteligencia y el trabajo del venezolano." href="#!" data-image="">
                     <img src="{{ asset('images/programas/logo_cron.png') }}" class="img-responsive img-program">
                     <img src="{{ asset('images/programas/logo_cron_blanco.png') }}" class="img-responsive">
                 </a>
             </div>
             <div class="program-container">
-                <a class="program" data-title="Papagayos por La Paz" data-texto="Jornada recreacional para fomentar la cultura de paz. Generamos estrategias que promuevan valores, rescaten la convivencia,  impulsen la creatividad y rescate el uso y conocimiento de los juegos tradicionales." href="#!" data-image="">
+                <a class="program" data-title="Papagayos por La Paz" data-texto="Jornada socio-comunitaria y recreacional para fomentar la cultura de paz. Está dirigido a la inserción en zonas populares de extrema pobreza y alto nivel delincuencial. Programa dirigido a generar estrategias que promuevan valores humanizadores para el rescate de la sana convivencia,  para impulsar la creatividad y promover el uso y conocimiento de los juegos venezolanos-tradicionales como instrumentos de reconciliación y paz comunitaria." href="#!" data-image="">
                     <img src="{{ asset('images/programas/logo_pap.png') }}" class="img-responsive img-program">
                     <img src="{{ asset('images/programas/logo_pap_blanco.png') }}" class="img-responsive">
                 </a>
             </div>
             <div class="program-container">
-                <a class="program" data-title="Torneo Deportivos" data-texto="Organizamos y promovemos actividades deportivas en comunidades populares para el provecho del tiempo libre de la juventud. La ejercitación física la combinamos con  valores como la  tolerancia, respeto y trabajo en equipo para  que sean tangibles en las comunidades. Descubrimos y respaldamos talentos locales." href="#!" data-image="">
+                <a class="program" data-title="Torneo Deportivos" data-texto="Organizamos y promovemos actividades deportivas en comunidades populares para el mejor aprovechamiento del tiempo libre de la juventud. La ejercitación física la combinamos con  valores como la  tolerancia, respeto y trabajo en equipo. Descubrimos y respaldamos talentos e iniciativas locales. Presentamos directamente los valores positivos que transfiere el futbol, utilizándolo como un medio, unido a charlas, ejercicios físicos y a la reflexión colectiva para promover y desarrollar actividades deportivas que permitan la creación de equipos de fútbol como formas básicas de organización y  liderazgo juvenil en los barrios. Ofrecemos a los líderes juveniles herramientas teórico-prácticas muy útiles para aumentar la calidad de la participación ciudadana y para mejorar su organización comunitaria." href="#!" data-image="">
                     <img src="{{ asset('images/programas/logo_dep.png') }}" class="img-responsive img-program">
                     <img src="{{ asset('images/programas/logo_dep_blanco.png') }}" class="img-responsive">
                 </a>
