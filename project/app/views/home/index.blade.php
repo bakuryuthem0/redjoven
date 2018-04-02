@@ -286,7 +286,7 @@
     </div>
 </div>
 <div class="call" data-action="rubberBand">
-    <a target="_blank" href="http://fundaepekeina.org">{{ View::make('partials.funda') }}</a>
+    <a target="_blank" href="http://fundaepekeina.com">{{ View::make('partials.funda') }}</a>
 </div>
 @stop
 
