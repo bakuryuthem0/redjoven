@@ -252,7 +252,7 @@
     <div class="clearfix"></div>
     <div class="col-xs-12 col-md-8 center-block rel">
        <div class="col-xs-12 col-sm-6 col-md-3 img-ally"><a href="http://fundaepekeina.com/" target="_blank"><img class="img-responsive" src="{{ asset('images/allies/fundaepekeina.png') }}"></a></div>
-       <div class="col-xs-12 col-sm-6 col-md-3 img-ally"><a href="http://www.alimentosfusari.com/ve/" target="_blank"><img class="img-responsive" src="{{ asset('images/allies/fusari.png') }}"></a></div>
+       <div class="col-xs-12 col-sm-6 col-md-3 img-ally"><a href="http://www.alimentosfusari.com/ve/" target="_blank"><img class="img-responsive" src="{{ asset('images/allies/foro-hatillano.jpg') }}"></a></div>
        <div class="col-xs-12 col-sm-6 col-md-3 img-ally"><a href="http://uba.edu.ve/" target="_blank"><img class="img-responsive" src="{{ asset('images/allies/uba.png') }}"></a></div>
        <div class="col-xs-12 col-sm-6 col-md-3 img-ally"><a href="#!" target="_blank"><img class="img-responsive" src="{{ asset('images/allies/zerolo.png') }}"></a></div>
        <div class="col-xs-12 col-sm-6 col-md-3 img-ally"><a href="#!" target="_blank"><img class="img-responsive" src="{{ asset('images/allies/ofigrapa.png') }}"></a></div>
